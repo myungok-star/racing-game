@@ -1,0 +1,22 @@
+
+
+#player-top {
+  position: relative;
+  background: url("face_02.png") no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+#player-bottom {
+  position: relative;
+  background: url("face_01.png") no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.game-board {
+  margin: 30px 10px;
+  background-color: #ed8c76;
+  padding: 10px 0;
+  height: 300px;
+}
