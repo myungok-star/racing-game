@@ -1,5 +1,14 @@
 
 
+h1 {
+  font-family:'Luckiest Guy', cursive;
+  font-size: 80px;
+  margin-top: 50px;
+  color: #ea682c;
+}
+.player {
+  margin: 30px 0;
+}
 #player-top {
   position: relative;
   background: url("face_02.png") no-repeat;
@@ -16,7 +25,7 @@
 
 .game-board {
   margin: 30px 10px;
-  background-color: #ed8c76;
-  padding: 10px 0;
+  background-color: #a7f9ec;
+  padding: 5px 0;
   height: 300px;
 }
