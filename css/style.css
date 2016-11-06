@@ -1,11 +1,15 @@
 
+body {
+  font-family:'Luckiest Guy', cursive;
 
+}
 h1 {
   font-family:'Luckiest Guy', cursive;
   font-size: 80px;
   margin-top: 50px;
   color: #ea682c;
 }
+
 .player {
   margin: 30px 0;
 }
@@ -29,3 +33,24 @@ h1 {
   padding: 5px 0;
   height: 300px;
 }
+
+.btn {
+  background-color: #777676;
+  color: white;
+  width: 150px;
+  font-size: 20px;
+  padding-top: 15px;
+  left: 0;
+  position: absolute;
+  margin: 30px auto;
+  right: 0;
+}
+
+.btn-reset:hover {
+  background-color: #ea682c;
+  color: white;
+}
+
+/*.tmp-hidden {
+  display: none;
+}*/
