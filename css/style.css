@@ -26,14 +26,41 @@ h1 {
   width: 100px;
   height: 100px;
 }
-
+.row2 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 5px;
+}
 .game-board {
   margin: 30px 10px;
   background-color: #a7f9ec;
   padding: 5px 0;
   height: 300px;
+
 }
 
+img {
+  width: 50px;
+  height: 50px;
+  position: center;
+  margin: 0 auto;
+}
+p {
+  font-size: 15px;
+}
+
+.player-top-button{
+  margin: 10px;
+  display: inline-block;
+}
+.player-bottom-button{
+  margin: 10px;
+  display: inline-block;
+}
 .btn {
   background-color: #777676;
   color: white;
