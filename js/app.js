@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-//first attempt
+//first attempt of moving players
 /*  $(document).keydown(function(key) {
     switch(parseInt(key.which,10)) {
       //player-top: when "a" is clicked, move to the right
@@ -32,6 +32,23 @@ $(document).ready(function () {
         break;
     }
   });
+
+  //executeWinner function
+  function excuteWinner() {
+    alert("Yay!!!")
+    $('#reset').removeClass('tmp-hidden');
+  }
+
+  //play again function
+  function playAgain() {
+    $("#reset").addClass('tmp-hidden');
+    $('.player').css({left: 0});
+  }
+
+
+
+
+
 
 
 

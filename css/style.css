@@ -1,7 +1,6 @@
 
 body {
   font-family:'Luckiest Guy', cursive;
-
 }
 h1 {
   font-family:'Luckiest Guy', cursive;
@@ -9,7 +8,6 @@ h1 {
   margin-top: 35px;
   color: #ea682c;
 }
-
 .player {
   margin: 30px 0;
 }
@@ -19,7 +17,6 @@ h1 {
   width: 100px;
   height: 100px;
 }
-
 #player-bottom {
   position: relative;
   background: url("face_01.png") no-repeat;
@@ -42,7 +39,6 @@ h1 {
 img {
   width: 50px;
   height: 50px;
-  position: center;
   margin: 0 auto;
 }
 p {
@@ -73,7 +69,6 @@ p {
   background-color: #ea682c;
   color: white;
 }
-
-/*.tmp-hidden {
+.tmp-hidden {
   display: none;
-}*/
+}
