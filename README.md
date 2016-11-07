@@ -1,5 +1,5 @@
 
-Racing Game: "Face Racers"
+<b>Racing Game: "Face Racers"</b>
 
 Created a racing game that two players can compete by clicking keyboard buttons. The goal of this project was to utilize jQuery to move the players(faces) when designated keyboard buttons were clicked, and HTML and CSS to provide interesting visuals.
 
