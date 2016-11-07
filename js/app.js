@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
-
-  $(document).keydown(function(key) {
+//first attempt
+/*  $(document).keydown(function(key) {
     switch(parseInt(key.which,10)) {
       //player-top: when "a" is clicked, move to the right
-       case 65:
+      case 65:
 				$('#player-top').animate({left: "+=25px"}, 'fast');
         break;
       //player-bottom: when "l" is clicked, move to the right
@@ -12,10 +12,26 @@ $(document).ready(function () {
         $('#player-bottom').animate({left: "+=25px"}, 'fast');
         break;
 }
+  });*/
+
+//second version
+  function movePlayer($player) {
+    $player.animate({ left: '+=25px' }, 'fast');
+    // check new position
+  }
+
+  $(document).keydown(function(key) {
+    switch(parseInt(key.which,10)) {
+      //player-top: when "a" is clicked, move to the right
+      case 65:
+        movePlayer($('#player-top'));
+        break;
+      //player-bottom: when "l" is clicked, move to the right
+      case 76:
+        movePlayer($('#player-bottom'));
+        break;
+    }
   });
-
-
-
 
 
 
