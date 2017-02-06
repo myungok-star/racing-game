@@ -5,36 +5,19 @@ $(document).ready(function() {
     function executeWinner() {
         alert("You are the WINNER!!!")
         $('#reset').removeClass('tmp-hidden');
+        $('.player').css({left: 0});
     }
 
     //play again function
     function playAgain() {
         $('#reset').addClass('tmp-hidden');
-        $('.player').css({
-            left: 0
-        });
+        $('.player').css({left: 0});
         winner = null;
 
     }
-    //first attempt of moving players
-    /*  $(document).keydown(function(key) {
-        switch(parseInt(key.which,10)) {
-          //player-top: when "a" is clicked, move to the right
-          case 65:
-    				$('#player-top').animate({left: "+=25px"}, 'fast');
-            break;
-          //player-bottom: when "l" is clicked, move to the right
-          case 76:
-            $('#player-bottom').animate({left: "+=25px"}, 'fast');
-            break;
-    }
-      });*/
 
-    //second version
     function movePlayer($player) {
-        $player.animate({
-            left: '+=30px'
-        }, 'fast');
+        $player.animate({left: '+=30px'}, 'fast');
 
         //find the winner
         var currentPosition = $player.offset().left;
@@ -46,6 +29,7 @@ $(document).ready(function() {
             executeWinner();
         }
     }
+    
     $(document).keydown(function(key) {
         switch (parseInt(key.which, 10)) {
             //player-top: when "a" is clicked, move to the right
